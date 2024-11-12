@@ -1,4 +1,3 @@
-
 public class ComparisonLogicalOperators {
 
 	public static void main(String[] args) {
