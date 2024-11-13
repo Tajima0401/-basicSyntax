@@ -1,20 +1,20 @@
 
 public class calculation {
-	
-public static void main(String[] args) {
 
-   int x = 5;
-   int y = 10;
-   int z = x + y;
-   System.out.println("変数zの値は" + z + "です");
+	public static void main(String[] args) {
 
-   double a = 5.25;
-   a = a + 2.5;
-   a = a * 3.0;
-   int b = (int) a;
-   b = b + 10; 
-   System.out.println("変数aの値は" + a + "です");
-   System.out.println("変数bの値は" + b + "です");
-  }
+		int x = 5;
+		int y = 10;
+		int z = x + y;
+		System.out.println("変数zの値は" + z + "です");
+
+		double a = 5.25;
+		a = a + 2.5;
+		a = a * 3.0;
+		int b = (int) a;
+		b = b + 10;
+		System.out.println("変数aの値は" + a + "です");
+		System.out.println("変数bの値は" + b + "です");
+	}
 
 }
